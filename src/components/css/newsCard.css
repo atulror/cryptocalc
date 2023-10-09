@@ -1,0 +1,31 @@
+.newsCard {
+  width: 22rem;
+  border-radius: 20px;
+  max-height: 485px;
+  min-height: 485px;
+  transition: transform  500ms ease-in-out;
+  z-index: 1;
+}
+
+.newsCard:hover{
+  transform: scale(1.05,1.05);
+}
+
+@media screen and (max-width: 1024px) {
+  .newsCard {
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .newsCard {
+    width: 13rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .newsCard {
+    width: 22rem;
+    text-align: center;
+  }
+}

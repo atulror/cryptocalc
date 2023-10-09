@@ -1,0 +1,20 @@
+.darkBtn{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-image: url("./moon1.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.darkBtn2{
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-image: url("./sun.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}

@@ -1,0 +1,11 @@
+.endText {
+  font-family: ABeeZee, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: underline overline;
+  line-height: 2.3em;
+  letter-spacing: 1px;
+}
